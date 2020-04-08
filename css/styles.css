@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;   
+}
+
+h2 {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.ctaHead {
+    font-family: 'Montserrat-black', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/****** CLASSES ****/
+
+.container-fluid {
+    padding: 0 15%;
+}
+
+/* navbar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin: auto 10%;
+}
+
+.nav-link {
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+/* title */
+
+.title-cont {
+    position: relative;
+    text-align: left;
+}
+
+#title {
+    color: white;
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+}
+
+#dgPhon-img {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 20%;
+}
+
+@media (max-width: 1020px) {
+    #title {
+        text-align: center;
+    }
+    #dgPhon-img {
+        position: static;
+        transform: rotate(0);
+        padding-top: 3rem;
+    }
+}
+
+/* feature */
+
+
+.feature {
+    padding: 5% 5% 0;
+}
+
+.feature-img {
+    color: #ef8172;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+.feature-img:hover {
+    color: #ff4c68;
+}
+
+.feat-title {
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+.feat-descrip {
+    color: #c4a2a2;
+}
+
+/* btn */
+
+.btnDL {
+    margin: 3rem 1rem 0 3rem;
+    
+}
+
+.btn-outline-light {
+    background-color: transparent;
+}
+
+.carousel-item {
+    padding: 2% 15%;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    height: auto;
+    margin: 3%;
+}
+
+.press-img {
+    width: 15%;
+    height: auto;
+    margin: 5% 2% 3%;
+}
+
+.price-col {
+    padding: 2% 1%;
+}
+
+.foot-icon {
+    padding: 1rem 1rem;
+}
+
+.cpRt {
+    color: #c4a2a2;
+}
+
+/****** IDS ********/
+
+#features {
+    background-color: white;
+    padding: 5% 15%;
+    text-align: center;
+    position: relative;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffffff;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 3rem 0;
+    background-color: white;
+    text-align: center;
+}
+
+/* media */
+
